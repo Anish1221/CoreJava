@@ -15,8 +15,8 @@ public class calc {
     public static void main(String[] args){
         System.out.println("Enter two no.");
         Scanner input=new Scanner(System.in);
-        int x=input.nextInt();
-        int y=input.nextInt();
+        float x=input.nextInt();
+        float y=input.nextInt();
         System.out.println("Choose no. to perform calc");
         System.out.println("1.ADD");
         System.out.println("2.SUBTRACT");
