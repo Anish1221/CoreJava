@@ -55,7 +55,8 @@ public class marksheet {
             System.out.println("4.English" + "\t" + "\t" + s);
             System.out.println("5.Nepali" + "\t" + "\t" + t);
             System.out.println("------------------------------");
-            if (percent >= 32) {
+
+            if (p >= 32 && q >= 32 && r >= 32 && s >= 32 && t >= 32) {
                 System.out.println("Total" + "\t" + "\t" + "\t" + total);
                 System.out.println("Percentage" + "\t" + "\t" + percent);
                 System.out.println("Division" + "\t" + "\t" + Division);
